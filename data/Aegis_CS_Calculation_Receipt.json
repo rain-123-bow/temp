@@ -1,0 +1,61 @@
+{
+  "project": "PROCESS V3 C/S software-stage",
+  "analysis_date": "2026-11-05",
+  "agent_logged_hours": 43.450833333333335,
+  "elapsed_hours": 155.18333333333334,
+  "user_chat_estimate_hours": 3.25,
+  "user_chat_estimate_range_hours": [
+    2.7333333333333334,
+    4.1
+  ],
+  "traditional_wbs_hours": {
+    "low": 400,
+    "center": 600,
+    "high": 900
+  },
+  "nominal_log_ratio": {
+    "low": 9.205807330124086,
+    "center": 13.808710995186129,
+    "high": 20.713066492779195
+  },
+  "human_sensitivity": [
+    {
+      "400": 123.07692307692308,
+      "600": 184.6153846153846,
+      "900": 276.9230769230769,
+      "human_total_hours_assumed": 3.25
+    },
+    {
+      "400": 66.66666666666667,
+      "600": 100,
+      "900": 150,
+      "human_total_hours_assumed": 6
+    },
+    {
+      "400": 40,
+      "600": 60,
+      "900": 90,
+      "human_total_hours_assumed": 10
+    },
+    {
+      "400": 26.666666666666668,
+      "600": 40,
+      "900": 60,
+      "human_total_hours_assumed": 15
+    },
+    {
+      "400": 16.666666666666668,
+      "600": 25,
+      "900": 37.5,
+      "human_total_hours_assumed": 24
+    }
+  ],
+  "important_limitations": [
+    "No observed traditional baseline",
+    "Human total effort not observed",
+    "Agent task-time concurrency semantics unverified",
+    "Formal acceptance STOP",
+    "Full Client business provider Mock",
+    "Physical scheduler and hardware not tested"
+  ]
+}
